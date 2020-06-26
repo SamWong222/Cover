@@ -201,14 +201,20 @@ a { color: #333; }
 
 /* DARK MODE
 /* ================================================= */
-.dark { background: #121621; }
+.dark { background: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%; }
+
 .dark body { color: #6C7486; }
 .dark ::selection { background: #222; color: #99A3BA; }
 .dark h1 { color: #E4ECFA; }
-.dark .quote { color: #6C7486; }
+.dark .quote { color: #BF6E6E; }
 .dark .quote-icon { color: #3F4656; }
 .dark .quote-line { background: #242836; }
-.dark a { color: #99A3BA; }
-.dark .links a { border-bottom-color: #6C7486; }
-.dark .links a:hover { color: #E4ECFA; border-bottom-color: #99A3BA; }
-.dark .location { color: #6C7486; }
+.dark a { color: #BF6E6E; }
+.dark .links a { border-bottom-color: #BF6E6E; }
+.dark .links a:hover { color: #BF6E6E; border-bottom-color: #BF6E6E; }
+.dark .location { color: #1; }
+
